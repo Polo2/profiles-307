@@ -1,0 +1,31 @@
+/* Your tabs CSS code here */
+.tabs {
+  height: 80px;
+  /*border: black 1px solid;*/
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.tab {
+  color: rgba(200,200,200);
+  text-decoration: none;
+  /*padding: 5px;*/
+  margin: 5px;
+  border-bottom: white 2px solid;
+  opacity: 0.7;
+}
+
+.tab:first-child {
+  margin-left: 20px;
+}
+
+.tab:hover {
+  opacity: 1;
+}
+
+.active {
+  color: rgb(100,100,100);
+  border-bottom: rgb(100,100,100) 2px solid;
+}
+
